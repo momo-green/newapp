@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guide_vp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        />
+   <Button
+        android:id="@+id/start_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/click_color"
+        android:textColor="@drawable/click_color_text"
+        android:text="开始体验"
+        android:visibility="invisible"
+        android:padding="5dp"
+        
+         />
+
+	<RelativeLayout
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="20dp"
+         >
+	    
+	    <LinearLayout
+	    android:id="@+id/point_gary_ll"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    </LinearLayout>
+	    <View
+	          android:id="@+id/red_point_vw"
+	          android:layout_width="10dp"
+	          android:layout_height="10dp"
+	          android:background="@drawable/shape_read" 
+	          
+	          />
+	</RelativeLayout>
+    
+</RelativeLayout>
